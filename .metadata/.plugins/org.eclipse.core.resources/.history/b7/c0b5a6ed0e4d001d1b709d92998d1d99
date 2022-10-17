@@ -1,0 +1,25 @@
+package ui;
+
+import doll.ActivosCirculantes;
+
+import java.util.Scanner;
+
+import bll.Validacioens;
+public class BalanceForm {
+	Scanner scan;
+	Validacioens val;
+	public BalanceForm() {
+		
+	}
+	public ActivosCirculantes crearActiCir() {
+		
+		ActivosCirculantes ac= new ActivosCirculantes();
+		System.out.println("A continuacion se le presentara una serie de cuentas\nDe no tener datos de esa ceunat digite -1");
+		System.out.println("Digite lo correspondiente a \"Anticipo de Proveedores: \"");
+		double s=val.
+		ac.setAnticipoAProveedores(0);
+		return null;
+		
+	}
+
+}

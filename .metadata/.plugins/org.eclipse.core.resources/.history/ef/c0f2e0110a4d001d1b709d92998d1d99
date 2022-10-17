@@ -1,0 +1,5 @@
+package doll;
+
+public class Balance {
+	private ActivosCirculantes actiCirculantes=new ActivosCirculantes();
+}

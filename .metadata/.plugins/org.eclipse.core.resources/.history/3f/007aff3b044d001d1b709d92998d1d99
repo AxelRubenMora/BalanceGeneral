@@ -1,0 +1,22 @@
+package doll;
+
+public class Activos {
+	double cajaGeneral;
+	double cajaChica;
+	double fondoDeOperaciones;
+	double bancos;
+	double inversionesTemporales;
+	double dlientes;
+	double documentosPorCobrar;
+	double deudores;
+	double funcionariosYEmpleados;
+	double ivaAcreditable;
+	double anticipoDeImpuestos;
+	double inventarios;
+	double anticipoAProveedores;
+	double PapeleríaYUtiles;
+	double PropagandaYPublicidad;
+	double RentasPagadasPorAnticipado;
+	double interesesPagadosPorAnticipado;
+	
+}

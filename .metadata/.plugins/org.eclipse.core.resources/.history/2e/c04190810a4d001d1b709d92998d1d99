@@ -1,0 +1,8 @@
+package doll;
+
+public class Balance {
+	private ActivosCirculantes actiCirculantes=new ActivosCirculantes();
+	private ActivosNoCirculante actiNoCirculantes=new ActivosNoCirculante();
+	private CapitalGanado capGanado = new CapitalGanado();
+	private CapitalContribuido capContribuido=new CapitalContribuido();
+}

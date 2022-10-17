@@ -1,0 +1,15 @@
+package doll;
+
+public class PasivosCirculante {
+	//Pasivos Circulantes
+	double proveedoresOCuentasPorPagar;
+	double documentosPorPagar;
+	double acreedoresDiversos;
+	double anticipoDeClientes;
+	double dividendosPorPagar;
+	double iVAPorPagar;
+	double iRPorPagar;
+	double SueldosAcumuladosPorPagar;
+	double GastosAcumuladosPorPagar;
+	
+}

@@ -1,0 +1,19 @@
+package main;
+
+public class Main {
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		String as="SetMiNombre";
+		String ad;
+		String ah;
+		
+		ad="set"+as.toUpperCase().charAt(3)+as.substring(3);
+		
+		
+	}
+
+}

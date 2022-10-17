@@ -1,0 +1,116 @@
+package doll;
+
+public class ActivosNoCirculante {
+	
+	//inmuebles, maquinaria y equipo
+    double Terrenos;
+    double Edificios;
+    double Maquinaria;
+    double MobiliarioyEquipodeOficina;
+    double EquipodeTransporte;
+    double EquipodeEntregayReparto;
+    //intangible 
+    double DerechosdeAutor;
+    double Patentes;
+    double MarcasRegistradas;
+    double Gastospreoperativos;
+    //otros activos
+    double FondodeAmortizacióndeObligaciones;
+    double DepósitoenGarantía;
+    double InversionesenProceso;
+    double TerrenosnoUtilizados;
+    double MaquinarianoUtilizada;
+	public double getTerrenos() {
+		return Terrenos;
+	}
+	public void setTerrenos(double terrenos) {
+		Terrenos = terrenos;
+	}
+	public double getEdificios() {
+		return Edificios;
+	}
+	public void setEdificios(double edificios) {
+		Edificios = edificios;
+	}
+	public double getMaquinaria() {
+		return Maquinaria;
+	}
+	public void setMaquinaria(double maquinaria) {
+		Maquinaria = maquinaria;
+	}
+	public double getMobiliarioyEquipodeOficina() {
+		return MobiliarioyEquipodeOficina;
+	}
+	public void setMobiliarioyEquipodeOficina(double mobiliarioyEquipodeOficina) {
+		MobiliarioyEquipodeOficina = mobiliarioyEquipodeOficina;
+	}
+	public double getEquipodeTransporte() {
+		return EquipodeTransporte;
+	}
+	public void setEquipodeTransporte(double equipodeTransporte) {
+		EquipodeTransporte = equipodeTransporte;
+	}
+	public double getEquipodeEntregayReparto() {
+		return EquipodeEntregayReparto;
+	}
+	public void setEquipodeEntregayReparto(double equipodeEntregayReparto) {
+		EquipodeEntregayReparto = equipodeEntregayReparto;
+	}
+	public double getDerechosdeAutor() {
+		return DerechosdeAutor;
+	}
+	public void setDerechosdeAutor(double derechosdeAutor) {
+		DerechosdeAutor = derechosdeAutor;
+	}
+	public double getPatentes() {
+		return Patentes;
+	}
+	public void setPatentes(double patentes) {
+		Patentes = patentes;
+	}
+	public double getMarcasRegistradas() {
+		return MarcasRegistradas;
+	}
+	public void setMarcasRegistradas(double marcasRegistradas) {
+		MarcasRegistradas = marcasRegistradas;
+	}
+	public double getGastospreoperativos() {
+		return Gastospreoperativos;
+	}
+	public void setGastospreoperativos(double gastospreoperativos) {
+		Gastospreoperativos = gastospreoperativos;
+	}
+	public double getFondodeAmortizacióndeObligaciones() {
+		return FondodeAmortizacióndeObligaciones;
+	}
+	public void setFondodeAmortizacióndeObligaciones(double fondodeAmortizacióndeObligaciones) {
+		FondodeAmortizacióndeObligaciones = fondodeAmortizacióndeObligaciones;
+	}
+	public double getDepósitoenGarantía() {
+		return DepósitoenGarantía;
+	}
+	public void setDepósitoenGarantía(double depósitoenGarantía) {
+		DepósitoenGarantía = depósitoenGarantía;
+	}
+	public double getInversionesenProceso() {
+		return InversionesenProceso;
+	}
+	public void setInversionesenProceso(double inversionesenProceso) {
+		InversionesenProceso = inversionesenProceso;
+	}
+	public double getTerrenosnoUtilizados() {
+		return TerrenosnoUtilizados;
+	}
+	public void setTerrenosnoUtilizados(double terrenosnoUtilizados) {
+		TerrenosnoUtilizados = terrenosnoUtilizados;
+	}
+	public double getMaquinarianoUtilizada() {
+		return MaquinarianoUtilizada;
+	}
+	public void setMaquinarianoUtilizada(double maquinarianoUtilizada) {
+		MaquinarianoUtilizada = maquinarianoUtilizada;
+	}
+    
+    
+
+}

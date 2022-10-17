@@ -1,0 +1,13 @@
+package doll;
+
+public class CapitalContribuido {
+	//capital
+    //capital contribuido
+    double capitalSocial;
+    double aportacionesparafuturosAumentosdeCapital;
+    double primaenVentadeAcciones;
+    double donaciones;
+    
+    
+
+}

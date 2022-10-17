@@ -1,0 +1,14 @@
+package doll;
+
+public class PasivosNoCirculantes {
+	//pasivos no circulantes
+    //fijos
+    double acreedoresHipotecarios;
+    double acreedoresBancarios;
+    double documentosPorPagarALargoPlazo;
+    double bonosPorPagar;
+    //diferidos
+    double rentasCobradasporAnticipado;
+    double interesesCobradosporAnticipado;
+
+}

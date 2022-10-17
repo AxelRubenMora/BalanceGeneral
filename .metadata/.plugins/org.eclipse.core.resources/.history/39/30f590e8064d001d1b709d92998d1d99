@@ -1,0 +1,27 @@
+package doll;
+
+public class ActivosNoCirculante {
+	
+	//inmuebles, maquinaria y equipo
+    double terrenos;
+    double edificios;
+    double maquinaria;
+    double mobiliarioyEquipodeOficina;
+    double equipodeTransporte;
+    double equipodeEntregayReparto;
+    //intangible 
+    double derechosdeAutor;
+    double patentes;
+    double marcasRegistradas;
+    double gastospreoperativos;
+    //otros activos
+    double fondodeAmortizacióndeObligaciones;
+    double depósitoenGarantía;
+    double inversionesenProceso;
+    double terrenosnoUtilizados;
+    double maquinarianoUtilizada;
+	
+    
+    
+
+}

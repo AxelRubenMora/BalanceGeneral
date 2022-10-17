@@ -1,0 +1,26 @@
+package doll;
+
+public class Balance {
+	private ActivosCirculantes actiCirculantes;
+	private ActivosNoCirculante actiNoCirculantes;
+	private CapitalGanado capGanado;
+	private CapitalContribuido capContribuido;
+	private PasivosCirculante pasiCirculantes;
+	private PasivosNoCirculantes pasiNocirculantes;
+
+	public Balance() {
+		actiCirculantes=new ActivosCirculantes();
+		actiNoCirculantes= new ActivosNoCirculante();
+		capGanado= new CapitalGanado();
+		capContribuido= new CapitalContribuido();
+		pasiCirculantes= new PasivosCirculante();
+		pasiNoCircualntes=new PasivosNoCirculantes();
+	}
+	
+	
+	
+	
+	
+	
+	
+}

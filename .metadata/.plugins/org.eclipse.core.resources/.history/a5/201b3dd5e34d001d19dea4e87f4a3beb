@@ -1,0 +1,73 @@
+package ui;
+
+import doll.ActivosCirculantes;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+import bll.Validacioens;
+public class BalanceForm {
+	private Validacioens val;
+	double s;
+	 
+	public BalanceForm() {
+	}
+	public ActivosCirculantes crearActiCir() throws IllegalAccessException, InvocationTargetException {
+		String sete;
+		sete="set";
+		ActivosCirculantes ac= new ActivosCirculantes();
+		Field atributosDeActivos[]=ac.getClass().getDeclaredFields();
+		Method[] metodosDeActivos= ac.getClass().getDeclaredMethods();
+		System.out.println("A continuacion se le presentara una serie de cuentas\nDe no tener datos de esa ceunat digite -1");
+		System.out.println("Digite lo correspondiente a \"Anticipo de Proveedores: \"");
+		for(Field atributo :atributosDeActivos) {
+			for(Method metodo: metodosDeActivos ) {
+				if(sete+atributo.getName()==metodo.getName()) {
+					System.out.printf("Digite lo correspondiente a \"%s\"",atributo.getName());
+					s=val.validarExistencia();
+					if(s>0) {
+						metodo.invoke(metodo, s);
+					}
+				}
+			}
+		}
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setAnticipoAProveedores(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Anticipo de impuestos: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setAnticipoDeImpuestos(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Banco: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setBancos(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Caja Chica: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setCajaChica(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Caja General: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setCajaGeneral(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Clientes: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setClientes(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Deudores: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setDeudores(s);
+		}
+		return ac;
+		
+	}
+
+}

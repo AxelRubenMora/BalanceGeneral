@@ -1,0 +1,14 @@
+package ui;
+
+import java.util.Scanner;
+
+public class Aplicacion {
+	Scanner scan;
+	
+	
+	public void mostraropciones() {
+		System.out.println("Bienvenido A el Balance java");
+		System.out.println();
+	}
+	
+}

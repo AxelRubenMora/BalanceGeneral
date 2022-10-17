@@ -1,0 +1,65 @@
+package ui;
+
+import doll.ActivosCirculantes;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List<Field>;
+
+import bll.Validacioens;
+public class BalanceForm {
+	private Validacioens val;
+	double s;
+	List<String> cue;
+	 
+	public BalanceForm() {
+		cue=new ArrayList<String>();
+	}
+	public ActivosCirculantes crearActiCir() {
+		
+		ActivosCirculantes ac= new ActivosCirculantes();
+		Field cuentas[]=ac.getClass().getDeclaredFields();
+		System.out.println("A continuacion se le presentara una serie de cuentas\nDe no tener datos de esa ceunat digite -1");
+		System.out.println("Digite lo correspondiente a \"Anticipo de Proveedores: \"");
+		for(Field fiel :cuentas) {
+			System.out.printf("Digite lo correspondiente a \"%s\"",fiel.getName());
+		}
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setAnticipoAProveedores(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Anticipo de impuestos: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setAnticipoDeImpuestos(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Banco: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setBancos(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Caja Chica: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setCajaChica(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Caja General: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setCajaGeneral(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Clientes: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setClientes(s);
+		}
+		System.out.println("Digite lo correspondiente a \"Deudores: \"");
+		s=val.validarExistencia();
+		if(s>0) {
+			ac.setDeudores(s);
+		}
+		return ac;
+		
+	}
+
+}

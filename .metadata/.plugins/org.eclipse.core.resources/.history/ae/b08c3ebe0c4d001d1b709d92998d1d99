@@ -1,0 +1,10 @@
+package ui;
+
+import doll.ActivosCirculantes;
+
+public class BalanceForm {
+	public ActivosCirculantes crearActiCir() {
+		
+	}
+
+}

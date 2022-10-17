@@ -1,0 +1,8 @@
+package doll;
+
+public class Activos {
+	double cajaGeneral;
+	double cajaChica;
+	double fondoDeOperaciones;
+	
+}

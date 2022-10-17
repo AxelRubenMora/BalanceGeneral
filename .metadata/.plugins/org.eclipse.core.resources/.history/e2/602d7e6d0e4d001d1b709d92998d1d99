@@ -1,0 +1,14 @@
+package ui;
+
+import doll.ActivosCirculantes;
+
+public class BalanceForm {
+	public ActivosCirculantes crearActiCir() {
+		
+		ActivosCirculantes ac= new ActivosCirculantes();
+		System.out.println("A continuacion se le presentara una serie de cuentas\nDe no tener datos de esa ceunat digite -1");
+		return null;
+		
+	}
+
+}

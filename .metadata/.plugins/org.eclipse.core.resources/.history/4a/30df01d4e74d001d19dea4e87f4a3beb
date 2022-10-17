@@ -1,0 +1,12 @@
+package doll;
+
+public class CapitalGanado {
+    //capital ganado
+	private double utilidadesRetenidas;
+	private double perdidasAcumuladas;
+	private double excesooInsuficiencia;
+    
+    
+	
+	
+}
